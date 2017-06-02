@@ -1,0 +1,27 @@
+.page-404 img {
+	position: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.page-404 h1 {
+	position: absolute;
+	left: 5%;
+	top: 25%;
+	color: #ffffff;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+@media
+all
+and
+(max-width:
+870px
+)
+{
+div {
+	font-size: 0.5em;
+}
+}

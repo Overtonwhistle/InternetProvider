@@ -1,0 +1,127 @@
+/* form styles */
+
+	form .row {
+		display: block;
+		padding: 7px 8px;
+		margin-bottom: 7px;
+	}
+	
+	form .row:hover {
+		background: #DCDCDC;
+	}
+
+	form label {
+		display: inline-block;
+		font-size: 1em;
+		font-weight: bold;
+		width: 200px;
+		padding: 6px 0;
+		color: #464646;
+		vertical-align: top;
+	}
+	
+	form textarea{
+		width: 200px;
+	}
+	
+	input, textarea{
+		    border: solid #bbc3c1 1px;
+	}
+	
+	.note{
+		text-align: left;
+	}
+	
+	.submitBtn{
+		text-align: right;
+	}
+		
+	#submitbtn{
+		height: 3em;
+		width: 30%;
+		text-align: center;
+	}
+	
+	form .req { 
+		color: #ca5354; 
+	}
+
+	form .note {
+		font-size: 1em;
+		line-height: 1.33em;
+		font-weight: normal;
+		padding: 2px 7px;
+		margin-bottom: 10px;
+	}
+
+	form input:focus, form textarea:focus { 
+		outline: none; 
+	}
+
+	/* placeholder styles: */
+	::-webkit-input-placeholder { color: #aaafbd; font-style: italic; } /* WebKit */
+	:-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+	::-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 19+ */
+	:-ms-input-placeholder { color: #aaafbd; font-style: italic; } /* Internet Explorer 10+ */
+
+	form .txt {
+		display: inline-block;
+		padding: 8px 9px;
+		padding-right: 30px;
+		width: 240px;
+		font-family: 'Oxygen', sans-serif;
+		font-size: 1.35em;
+		font-weight: normal;
+		color: #898989;
+	}
+
+
+
+/*            */
+
+input, textarea
+{
+	border: solid #bbc3c1 1px;
+	width: 96%;
+	padding: 1em 0 1em 1em;
+	font-size: 0.7em;
+}
+
+#message
+ {
+	 height: 10em;
+	 font-size: 1em;
+	 width: 96%;
+ }
+
+#submit
+{
+	background-color: red;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #fff;
+	height: 3em;
+	width: 100%;
+	max-width: 15em;
+}
+
+.SubmitB
+{
+	text-align: left;
+	}
+	
+#submit:hover
+{
+    background-color: #666	
+	cursor: pointer;
+	}
+	
+label{
+	font-family: 'Signika Negative', sans-serif;
+	font-weight: bold;
+}
+
+input{
+	font-family: 'Signika Negative', sans-serif;
+}
